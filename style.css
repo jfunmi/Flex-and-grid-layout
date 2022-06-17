@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: blue;
+    color: wheat;
+}
+button a{
+    place-items: center;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: spac;
+}
+.card{
+    background-color: yellow;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;  
+}
+.content{
+    padding: 20px;
+}
+button{
+    border-radius: 15px;
+    width: 100px;
+    align-items: center;
+    border: none;
+    line-height: 25px;
+    padding: 10px 5px;
+    background-color: wheat;
+}

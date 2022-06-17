@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color:yellow;
+    color: wheat;
+    display: flex;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    'a b c';
+    gap: 10px;
+}
+.container div{
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.A{
+    background-color: violet;
+    grid-area: a;
+}
+.B{
+    background-color:black;
+    grid-area:b ;
+}.C{
+    background-color: cadetblue;
+    grid-area: c;
+}
